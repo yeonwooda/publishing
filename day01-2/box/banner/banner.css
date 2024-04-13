@@ -1,0 +1,59 @@
+body {
+    /* 자식 요소 가운데 */
+    display: flex;
+    /* view-height/width */
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mini {
+    color: skyblue;
+  }
+  .large {
+    text-align: center;
+  }
+  .medium {
+    color: #dbdbdb;
+    text-align: center;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* 두께 스타일 색상 */
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .apple {
+    color: black;
+    background-color: white;
+  }
+  
+  .google {
+    color: white;
+    background-color: #252b42;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .download {
+    display: flex;
+    gap: 10px;
+  }
