@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.box {
+  display: flex;
+  width: 300px;
+  height: 800px;
+  background-color: antiquewhite;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid black;
+  gap: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+.her {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border: 40px;
+  border-radius: 50px;
+  background-image: url(her.jpg);
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  transition: all 0.5s;
+  justify-content: center;
+  background-position: middle;
+}
+
+.icon {
+  font-family: "Freesentation-9Black";
+}
+
+.icon2 {
+  font-family: "SUITE-Regular";
+}
+
+.album {
+  display: flex;
+  justify-content: center;
+  border: 17px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Freesentation-9Black";
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  border: 17px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Freesentation-9Black";
+}
+
+.website {
+  display: flex;
+  justify-content: center;
+  border: 17px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Freesentation-9Black";
+}
+
+.spotify {
+  display: flex;
+  border: 17px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 15px;
+  justify-content: center;
+  font-family: "Freesentation-9Black";
+}
+
+.button {
+  color: gainsboro;
+  font-size: 29px;
+  word-spacing: 15px;
+}

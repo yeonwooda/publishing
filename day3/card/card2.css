@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+.villa {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card1 {
+  width: 280px;
+  height: 390px;
+  border-radius: 12px;
+  background-image: url(villa.jpg);
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  transition: all 0.5s;
+}
+
+.card2 {
+  width: 280px;
+  height: 390px;
+  border-radius: 12px;
+  background-image: url(villa2.jpg);
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  transition: all 0.5s;
+}
+
+.card3 {
+  width: 280px;
+  height: 390px;
+  border-radius: 12px;
+  background-image: url(villa3.jpg);
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  filter: brightness(0.95); /*사진에 커서 올렷을 때 검정으로 변하는*/
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+/*text-decoration*/
+.category {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  width: fit-content; /*윗 글에 맞춰서 밑줄 선 딱 맞추기*/
+  /* text-decoration: underline; */ /*밑줄*/
+  border-bottom: 1px solid white;  /*밑줄에 공간을 주는것*/
+  padding-bottom: 5px; /*밑줄에 공간을 주는것*/
+}
+
+.title {
+  font-family: "JalnanGothic";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+}

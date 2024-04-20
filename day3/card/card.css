@@ -1,0 +1,23 @@
+.villa{
+    display: flex;
+    gap: 5;
+    width: fit-content;
+    padding: 30px 40px 30px 40px;
+    border-radius: 14px;
+    background-image: url(villa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
