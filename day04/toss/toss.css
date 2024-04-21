@@ -1,0 +1,52 @@
+.scroll-container {
+  overflow-x: scroll;
+}
+
+.image {
+  display: flex;
+  background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: white;
+    gap: 50px;
+}
+
+.image2{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    
+}
+
+.con{
+    display: flex;
+    position: absolute;
+    top: 500px;
+    right: 270px;
+    font-size: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.icon{
+    border: 1px solid;
+    position: absolute;
+    top: 600px;
+    right: 376px;
+    color: white;
+}
+
+.icon2{
+    width: 200;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+    top: 600px;
+    right: 276px;
+    color: white;
+}
