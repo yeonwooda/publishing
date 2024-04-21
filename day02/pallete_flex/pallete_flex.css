@@ -1,0 +1,39 @@
+body/*디스플레이 전체*/ {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pall /*디스플레이 한줄의 칸에 삽입*/ {
+  /*width: 100vw;
+  height: 100vh;s*/
+  display: flex;
+  /*flex-direction: column;*/
+  /* 자식들이 균등하게 자리 차지하는 CSS */
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: #55efc4;
+}
+.blue {
+  background-color: #81ecec;
+}
+.green {
+  background-color: #74b9ff;
+}
+.pink {
+  background-color: #a29bfe;
+}
+.mint {
+  background-color: #00b894;
+}
+.sky {
+  background-color: #00cec9;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  border: 1px solid #dbdbdb;
+  border-radius: 100px; /*각진 사각형 둥글게 만드는 크기 값 정하기*/
+
+  font-size: 14px;
+  font-weight: bold;
+  /*padding: top: 12 right: 3 bottom: 6 left: 9*/
+  padding: 10px 16px 10px 16px;
+
+  /* 마우스 올렸을 때 커서 바뀌는 CSS */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(62, 70, 180);
+  color: white;
+}

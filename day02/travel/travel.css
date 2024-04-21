@@ -1,0 +1,33 @@
+.travel {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 40px 30px 40px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.icon_box {
+  display: flex;
+  flex-direction: column; /*방향*/
+  gap: 25px;
+}
+
+.icon_box2 {
+  display: flex;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.font {
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  gap: 8px;
+}

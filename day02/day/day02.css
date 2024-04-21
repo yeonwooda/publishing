@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment {
+  color: #1181ff;
+}
+
+.register {
+  color: #1181ff;
+  border: 1px solid #1181ff; /*두께*/
+  border-radius: 8px; /*모서리 둥글게*/
+  width: 80px; /*테두리 크기*/
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fruit {
+
+font-size: 30px;
+}
+
+.fruit > .apple{
+    color: red;
+}
+
+.fruit > .banana{
+    color: yellow;
+}
+
+.fruit > .orange{
+    color: orange;
+}
