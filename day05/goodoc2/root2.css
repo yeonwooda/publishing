@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "WavvePADO-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  /*font*/
+  --font-primary: "WavvePADO-Regular";
+  --font-large: 24px;
+  --font--size-small: 12px;
+  
+  /*width*/
+  --max-width: 1200px;
+
+  /*border*/
+  --border-button: 1px solid rgba(128, 135, 153, 0.15);
+  --border-button-radius: 100px;
+
+  --color-grey: rgba(128, 135, 153, 0.15);
+}

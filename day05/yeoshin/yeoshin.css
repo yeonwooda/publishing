@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.yeoshin{
+    width: 1920px;
+    height: 1080px;
+
+}
+
+.un{
+    display: flex;
+    align-content: flex-start;
+}
+
+.unn{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    opacity: 4;
+
+}
+
+.main{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.button-box{
+    display: flex;
+    align-content: flex-end;
+    padding: 10 10 ;
+
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+    opacity: 4;
+    
+}
+
+.buttonn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+    opacity: 4;
+}
