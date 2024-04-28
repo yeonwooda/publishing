@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "WavvePADO-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2")
+      format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+:root {
+    /*font*/
+    --font-primary: "WavvePADO-Regular";
+    --font-mega: 120px;
+    --font-super: 72px;
+    --font-large: 32px;
+    --font-regular: 24px;
+    --font-medium: 16px;
+    --font-small: 12px;
+    
+    /*width*/
+   --width-max:1200px;
+  
+    /*border*/
+  
+  
+   /* color*/
+   --color-white: #fff;
+   --color-grey:#555;
+   --color-lightgrey: #c9c9c977;
+
+
+
+}
+  

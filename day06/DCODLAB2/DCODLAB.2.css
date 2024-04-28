@@ -1,0 +1,44 @@
+.first {
+  position: relative;
+  display: flex; /* 자식이 정가운데*/
+  align-items: center; /* 자식이 정가운데*/
+  width: 100vw;
+  height: 100vh;
+}
+
+.first > video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+  opacity: 0.9;
+}
+
+.first > contents {
+  position: absolute;
+  /* 섹션 안에 있는 컨텐츠 센터링 css*/
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: var(--width-max); /*위에 센터 맞췄으니까 너도 맞춰라*/
+  margin: 0px auto;
+
+  display: block;
+  flex-direction: row;
+
+  font-family: var(--font-primary);
+  color: var(--color-white);
+}
+
+.first > contents > h1 {
+  font-size: 120px;
+  color: var(--color-white);
+}
+
+.first > contents > span {
+  font-size: 16px;
+}
+

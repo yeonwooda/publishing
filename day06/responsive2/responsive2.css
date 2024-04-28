@@ -1,0 +1,57 @@
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center; /*가운데로*/
+    align-items: center; /*가운데로*/
+    z-index: 1;
+}
+
+nav{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-primary)
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > ul > li{
+    padding: 20px 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    background: var(--color-grey);
+    color: var(--color-white);
+}
+.hamburger{
+    display: none;
+    padding: 20px 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .hamburger{
+        display: block;
+        }
+        nav{
+            max-width: 600px;
+        }
+        nav > ul{
+            display: none;
+        }
+}
+
+
+@media screen and (max-width: 768px) {
+    .hamburger{
+        display: none;
+    }
+}
