@@ -1,0 +1,16 @@
+.wrapper{
+     scroll-snap-type: x mandatory;
+     overflow-x: scroll;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    width: 100vw;
+    height: 50vh;
+    scroll-snap-align: start;
+}
+
+.red{background-color: rgb(255, 224, 224);}
+.blue{background-color: rgb(206, 206, 255);}
+.green{background-color: rgb(224, 251, 184);}
